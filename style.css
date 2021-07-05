@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.start {
+    background-image: url(imgs/jani-kaasinen-7VGzV09YnvA-unsplash.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 630px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    border: 7px solid #BF7330;
+    background-color: #724705;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    box-shadow: 3px 3px 6px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 112.5%);
+}
+
+.menu  {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 10px 30px;
+}
+
+.menu:hover {
+    background-color: #BF7330;
+}
+
+.menu:active {
+    background-color: #daac84;
+}
+
+nav {
+    background-color: #724705;
+    padding: 10px;
+}
+  
+main {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+section {
+    text-align: center;
+}
+
+.logo {
+    height: 400px;
+    margin: auto;
+    
+}
+
+.logob {
+    height: 400px;
+    background-color: #B8732D;
+}
+
+h2 {
+    padding-top: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom:  3px solid #B8732D;
+}
+
+.about p {
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+    float: left;
+    width: 55%;
+    height: 700px;
+}
+
+.social h3 {
+    font-family: monospace;
+}
+
+.midiasf {
+    border: none;
+    font-size: 3em;
+}
+
+
+.cont {
+    margin-top: 15px;
+    color: grey;
+}
+
+.prices {
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin-top: 15px;
+    background-color: rgb(226, 221, 221);
+    margin-left: 6%;
+    padding: 5px;
+}
+
+.prices:hover {
+    box-shadow: 3px 3px 6px black;
+    
+}
+
+.prices h3 {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    border-bottom:  3px solid #B8732D;    
+}
+
+.prices p {
+    margin-top: 50%;
+    font-size: 4em;
+}
+
+.last {
+    float: none;
+    display: inline-block;
+}
+
+footer p {
+    color: white;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        display: block;
+        text-align: center;
+        float: none;
+        background-color: #B8732D;
+        margin-top: 10px;
+    }
+
+    .subtitle, .logo, .logob, .midiasf {
+        visibility: hidden;
+    }
+
+    .prices {
+        width: 90%;
+        float: none;
+    }
+
+    .last {
+        display: block;
+    }
+}
